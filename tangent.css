@@ -1,0 +1,1032 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    background-color: rgb(208, 211, 212);;
+}
+
+#container{
+    background-color: rgb(121, 125, 127);
+    width: 70vw;
+    height: 65vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-top: 1px;
+}
+
+#row3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-top: 1px;
+}
+#row4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-top: 1px;
+}
+
+#row5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-top: 1px;
+}
+#row6{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-top: 1px;
+}
+
+#Escape{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#F1{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#F2{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#F3{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F4{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F5{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F6{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F7{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F8{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F9{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F10{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F11{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#F12{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#PrintScreen{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Delete{
+    width: 5%;
+    height: 1.4rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Backquote{
+    width: 4.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Digit1{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit2{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit3{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit4{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit5{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit6{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit7{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit8{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit9{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Digit0{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Minus{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Equal{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Backspace{
+    width: 12.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 25px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Home{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Tab{
+    width: 8.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#KeyQ{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#KeyW{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyE{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyR{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyT{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyY{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyU{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyI{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyO{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyP{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#BracketRight{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#Enter{
+    width: 9.5%;
+    height: 4.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#PageUp{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#CapsLock{
+    width: 12.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyA{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyS{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyD{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyF{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyG{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyH{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyJ{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyK{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyL{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#Backslash{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#PageDown{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#ShiftLeft{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#IntlBackslash{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyZ{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyX{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyC{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyV{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyB{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyN{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#KeyM{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#Comma{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#Period{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#Slash{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#ShiftRight{
+    width: 15.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    font-size: 25px;
+    border-radius: 3px;
+    padding-left: 2%;
+    padding-top: 5px;
+    text-align:left;
+}
+#End{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#ControlLeft{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#AltLeft{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#Space{
+    width: 35%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    border-radius: 5px;
+}
+
+#AltRight{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#ContextMenu{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#ControlRight{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#ArrowLeft{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#ArrowUp{
+    width: 5.5%;
+    height: 2rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#ArrowDown{
+    width: 5.5%;
+    height: 2rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#ArrowRight{
+    width: 5.5%;
+    height: 3.5rem;
+    background-color: rgb(23, 32, 42);
+    color: rgb(240, 243, 244);
+    text-align:center;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
